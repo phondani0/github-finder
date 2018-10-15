@@ -1,0 +1,55 @@
+#error-block {
+    height: 40px;
+}
+
+.card-header {
+    background-color: #f4f4f4;
+}
+
+.card-header h4 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #0069D9;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#search-result__section-1 {
+    min-height: 200px;
+}
+
+#view-profile {
+    display: flex;
+    justify-content: center;
+}
+
+#view-profile a {
+    padding: 10px 48px;
+    margin: 10px auto 0;
+    border-radius: 70px;
+    text-align: center;
+}
+
+#avatar {
+    margin-top: 9px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+#avatar img {
+    height: 100%;
+    width: auto;
+}
+
+#progress-bar {
+    height: 200px;
+}
+
+#progress-bar img {
+    height: 100%;
+}
+
+#search-result {
+    display: none;
+}
