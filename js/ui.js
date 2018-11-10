@@ -6,8 +6,13 @@ function renderProfile(user) {
     document.querySelector('#view-profile a').setAttribute('href', user.html_url);
 
     let profile = '';
-
+    
     profile = `
+            <div id="profile-badges" class="d-flex">
+                <div class="pr-sm-3"><span class="badge badge-danger">repos: ${user.public_repos}</span></div>
+                <div class="px-sm-3"><span class="badge badge-info">followers: ${user.followers}</span></div>
+                <div class="px-sm-3"><span class="badge badge-secondary">following: ${user.following}</span></div>
+            </div>        
             <div class="list-group">
                 <div class="list-group-item py-3">Company: ${user.company}</div>
                 <div class="list-group-item py-3">Website/blog: ${user.blog}</div>
