@@ -30,7 +30,6 @@ function findUser() {
             })
 
     } else {
-        document.getElementById('search-result').innerHTML = '';
         document.getElementById('search-result').style.display = 'none';
     }
 }
